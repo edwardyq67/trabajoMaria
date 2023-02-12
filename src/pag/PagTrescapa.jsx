@@ -14,7 +14,9 @@ const PagTrescapa = () => {
                     the language, but you can take advantage of the activities and attractions
                      in Malta. Sprachcaffe offers language trips and English courses for 
                     adults that provide the perfect blend of language learning and leisure.</p>
-      <div className="icon-p">
+      
+                </div>
+                <div className="icon-p">
                     <div className="icon-ps">
                     <i className="fa-solid fa-truck"></i>
                     <h3>Deliveri</h3>
@@ -32,8 +34,6 @@ const PagTrescapa = () => {
                     <h3>Deliveri</h3>
                     </div>
                 </div>
-                </div>
-                
                  </div>
                  </div>
         </div>
