@@ -1,0 +1,51 @@
+.imagen-estatico{
+    background-image: url(../img/cabaña.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: 40em;
+   position: relative;
+   
+    background-repeat: no-repeat;
+}
+.cap-pagtres{
+    background:rgba(0, 0, 0, 0.2);
+     height: 50vh;
+    padding-bottom: 20px;
+}
+.conte-letras{
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.conte-letras h1,p{
+    text-align: center;
+    color: aliceblue;
+    
+}
+.conte-letras h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.conte-letras p{
+    font-size: 20px;
+}
+.icon-p{
+    
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(100px,1fr)) ;   
+    grid-auto-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.icon-ps{
+    margin: auto;
+    
+    font-size: 20px;
+    color: aliceblue;
+}

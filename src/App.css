@@ -1,0 +1,150 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.caja-menu{
+  width: 86%;
+  margin: auto;
+}
+.App{
+  z-index: 40;
+}
+.container{
+  z-index: 40;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+ 
+}
+.new{
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 40;
+  background: rgb(0, 0, 0);
+}
+
+.caja-menu .menu,.newmenu{
+  float: right;
+  
+}
+.caja-menu .newmenu a{
+  color: #ffffff;
+}
+.caja-menu .menu a{
+  color: aqua;
+}
+.caja-menu .menu a,.caja-menu .newmenu a{
+  display: inline-block;
+  text-decoration: none;
+  
+  padding: 30px 10px;
+  transition: all .3s ease;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+  cursor: pointer;
+}
+.caja-menu .menu a:hover{
+  border-bottom: 2px solid aqua;
+  padding: 5px 10px;
+  z-index: 40;
+}
+.caja-menu .newmenu a:hover{
+  border-bottom: 2px solid #ffffff;;
+  padding: 5px 10px;
+  z-index: 40;
+}
+.logo img{
+  margin-top: 16px;
+  width: 45px;
+  height: auto;
+  float: left;
+  
+}
+#capa0{
+  
+  width: 100%;
+  height: 100vh;
+}
+#capa1{
+  
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+}
+#capa2{
+  
+  background: rgb(122, 122, 175);
+  width: 100%;
+  height: 100vh;
+}
+
+#capa4{
+  
+  background: rgb(187, 118, 29);
+  width: 100%;
+  height: 100vh;
+}
+#btn-menu{
+  display: none;
+}
+.menu-cel i{
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 30px;
+  left: 90px;
+  cursor: pointer;
+}
+.containe-menu{
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-menu:checked~.containe-menu{
+  opacity: 1;
+  visibility: visible;
+}
+.cont-menu{
+  width: 100%;
+  max-width: 250px;
+  background: #1c1c1c;
+  height: 100vh;
+  position: relative;
+  transition: all 500ms ease;
+}
+.cont-menu nav{
+  transform: translateY(15%);
+}
+.cont-menu nav a{
+  display: block;
+  text-decoration: none;
+  padding: 30px;
+  color: aliceblue;
+  border-left:5px solid transparent;
+  transition: all 400ms ease;
+  cursor: pointer;
+}
+.cont-menu nav a:hover{
+  border-left:5px solid white;
+  background: #313030;
+}
+.cont-menu label i{
+  position: relative;
+  left: 200px;
+  bottom: 290px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+html{
+  scroll-behavior: smooth;
+}
