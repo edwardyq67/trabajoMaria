@@ -17,14 +17,15 @@
   position: fixed;
   width: 100%;
   height: 80px;
- 
+  box-shadow: 0 5ps 15ps rgba(0,0,0,.5);
+     background: rgba(255, 255, 255, .2);
 }
 .new{
   position: fixed;
   width: 100%;
   height: 80px;
   z-index: 40;
-  background: rgb(0, 0, 0);
+  background: #189AB4;
 }
 
 .caja-menu .menu,.newmenu{
@@ -32,10 +33,10 @@
   
 }
 .caja-menu .newmenu a{
-  color: #ffffff;
+  color: #75E6DA;
 }
 .caja-menu .menu a{
-  color: aqua;
+  color: #05445E;
 }
 .caja-menu .menu a,.caja-menu .newmenu a{
   display: inline-block;
@@ -48,20 +49,24 @@
   cursor: pointer;
 }
 .caja-menu .menu a:hover{
-  border-bottom: 2px solid aqua;
+  border-bottom: 2px solid #05445E;
   padding: 5px 10px;
   z-index: 40;
 }
 .caja-menu .newmenu a:hover{
-  border-bottom: 2px solid #ffffff;;
+  border-bottom: 2px solid #75E6DA;;
   padding: 5px 10px;
   z-index: 40;
 }
+.logo{
+  float: left;
+  
+}
 .logo img{
   margin-top: 16px;
-  width: 45px;
-  height: auto;
-  float: left;
+  width: 120px;
+ 
+  
   
 }
 #capa0{
@@ -71,7 +76,7 @@
 }
 #capa1{
   
-  background: rgb(0, 0, 0);
+  background: #189AB4;
   width: 100%;
   height: auto;
 }
@@ -94,9 +99,9 @@
 .menu-cel i{
   font-size: 25px;
   color: rgb(0, 0, 0);
-  position: absolute;
-  top: 30px;
-  left: 90px;
+  float: left;
+  margin-top: 40px;
+ margin-right: 20px;
   cursor: pointer;
 }
 .containe-menu{
@@ -147,4 +152,21 @@
 }
 html{
   scroll-behavior: smooth;
+}
+@media (min-width:992px){
+  .menu-cel{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@media (max-width:767px){
+    .menu{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .newmenu{
+      visibility: hidden;
+      opacity: 0;
+      z-index: 400;
+  }
 }

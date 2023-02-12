@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import logo from'./logo/CapturaTDO-removebg-preview.png';
+import logo from'./logo/logo-maria.png';
 import PagunoCapa from './pag/PagunoCapa';
 import PagDosCapa from './pag/PagDosCapa';
 import PagTrescapa from './pag/PagTrescapa';
@@ -30,6 +30,7 @@ function handleScroll() {
         <div id='cajamenu' className="caja-menu">
         <div className="logo">
             <img src={logo} alt="" />
+            <label className='menu-cel' htmlFor="btn-menu"><i className="fa-solid fa-bars"></i></label>
         </div>
         <nav className={menu}>
           <a className='menupc' href="#capa0">INICIO</a>
@@ -38,7 +39,7 @@ function handleScroll() {
           <a className='menupc' href="#capa4">CONTACTOS</a>
         </nav>
       </div>
-      <label className='menu-cel' htmlFor="btn-menu"><i className="fa-solid fa-bars"></i></label>
+      
       
       <input type="checkbox" id='btn-menu' />
       <div className="containe-menu">
