@@ -2,14 +2,14 @@
     background-image: url(../img/cabaña.jpg);
     background-attachment: fixed;
     background-size: cover;
-    max-height: 40em;
+    max-height: 50em;
     
     background-repeat: no-repeat;
 }
 .cap-pagtres{
-    background:rgba(255, 0, 0, 0.2);
+    background:rgba(0, 0, 0, 0.4);
      height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .conte-letras{
     
@@ -26,10 +26,15 @@
 .conte-letras h1{
     padding-bottom: 20px;
     font-size: 40px;
-    margin-bottom: 10px;
+    
+    border-bottom: 2px solid white;
+   
+    margin: auto;
+    max-width: 600px;
 }
 .conte-letras p{
     font-size: 20px;
+    margin-top: 40px;
 }
 .icon-p{
     padding-top: 40px;
@@ -37,22 +42,24 @@
     display: grid;
     grid-template-columns:repeat(auto-fill,minmax(100px,1fr)) ;   
     grid-auto-rows: auto;
-    gap: 20px;
- 
+    gap: 40px;
+    
 }
 @media (max-width: 767px) {
     .icon-p{
- width: 300px;
+ width: 350px;
+ 
+
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .icon-p{
-        width: 500px;
+        width: 550px;
            }
 }
 @media (min-width: 992px) {
     .icon-p{
-        width: 500px;
+        width: 550px;
     }
 }
 .icon-ps{
@@ -60,6 +67,9 @@
     padding-bottom: 40px;
     font-size: 20px;
     color: aliceblue;
-    
+   
 
+}
+.icon-ps i{
+    font-size: 35px;
 }

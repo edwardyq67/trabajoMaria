@@ -59,7 +59,7 @@ function handleScroll() {
       <section id='capa1'><PagDosCapa/></section>
       <section id='capa3'><PagTrescapa/></section>
       <section id='capa4'><PagMaps/></section>
-      <section id='capa5'></section>
+      
     </div>
    
   )

@@ -7,31 +7,27 @@ const PagTrescapa = () => {
                 <div className="cap-pagtres">
 
                 
-                <div className="conte-letras">
-                    <h1>Viajes</h1>
-                <p>Malta is the perfect destination for learning English and 
-                    discovering the beauty of the Mediterranean. Not only can you learn 
-                    the language, but you can take advantage of the activities and attractions
-                     in Malta. Sprachcaffe offers language trips and English courses for 
-                    adults that provide the perfect blend of language learning and leisure.</p>
-      
+                <div data-aos="zoom-in" className="conte-letras">
+                    <h1>QUIENES SOMOS</h1>
+                <p>Somos una ferretería multimarca que distribuye al por mayor y menor toda una gama de productos electricos de primera calidad para el rubro doméstico e industrial. Ademas somos distribuidores autorizados de la marca KBA.</p>
                 </div>
-                <div className="icon-p">
+                <div data-aos="zoom-in-down" className="icon-p">
                     <div className="icon-ps">
                     <i className="fa-solid fa-truck"></i>
-                    <h3>Deliveri</h3>
+                    <h3>delivery</h3>
                     </div>
                     <div className="icon-ps">
-                    <i className="fa-solid fa-truck"></i>
-                    <h3>Deliveri</h3>
+                    <i className="fa-solid fa-1"></i><i className="fa-solid fa-0"></i>
+                    <h3>Años de</h3>
+                    <h3>Experiencia</h3>
                     </div>
                     <div className="icon-ps">
-                    <i className="fa-solid fa-truck"></i>
-                    <h3>Deliveri</h3>
+                    <i className="fa-regular fa-handshake"></i>
+                    <h3>Compromiso</h3>
                     </div>
                     <div className="icon-ps">
-                    <i className="fa-solid fa-truck"></i>
-                    <h3>Deliveri</h3>
+                   <i class="fa-solid fa-wrench"></i>
+                    <h3>seguridad</h3>
                     </div>
                 </div>
                  </div>

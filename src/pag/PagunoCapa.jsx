@@ -46,10 +46,9 @@ const PagunoCapa = () => {
       },30)
     }
   }
-    return (
-        <div className="contenedorPrincipal">
-            <div className="contenedorSlideshow" ref={slideshow}>
-          <div className="slice">
+  
+  /*
+  <div className="slice">
           
             <ReactPlayer id='slicev' className="slice" height={'100vh'}  
                url={video}
@@ -60,19 +59,25 @@ const PagunoCapa = () => {
             />
 
           <div className='textSlide'>
-            <p >
-              paisajes de canada
-            </p>
+            <h2>NEGOVA</h2>
+            <p>ferreteria y accesorios galvanizado</p>
           </div>
-        </div>
+        </div>*/ 
+    return (
+        <div className="contenedorPrincipal">
+            <div className="contenedorSlideshow" ref={slideshow}>
+          
         <div className="slice">
           
             <img src={malta} alt="" />
          
           <div className='textSlide'>
-            <p >
-              paisajes de canada
-            </p>
+            <div className="contenido-paguno">
+              <h2>NEGOVA</h2>
+          <p>ferreteria y accesorios galvanizado</p>
+          <button>Pedir una cotizacion</button>
+            </div>
+          
           </div>
         </div>
         <div className="slice">
@@ -80,9 +85,11 @@ const PagunoCapa = () => {
             <img src={zelanda} alt="" />
           
           <div className='textSlide'>
-            <p >
-              paisajes de canada
-            </p>
+          <div className="contenido-paguno">
+              <h2>NEGOVA</h2>
+          <p>ferreteria y accesorios galvanizado</p>
+          <button>Pedir una cotizacion</button>
+            </div>
           </div>
         </div>
         <div className="slice">
@@ -90,9 +97,11 @@ const PagunoCapa = () => {
             <img src={canada} alt="" />
          
           <div className='textSlide'>
-            <p >
-              paisajes de canada
-            </p>
+          <div className="contenido-paguno">
+              <h2>NEGOVA</h2>
+          <p>ferreteria y accesorios galvanizado</p>
+          <button>Pedir una cotizacion</button>
+            </div>
           </div>
         </div>
         <div className="slice">
@@ -100,9 +109,11 @@ const PagunoCapa = () => {
             <img src={malta} alt="" />
           
           <div className='textSlide'>
-            <p >
-              paisajes de canada
-            </p>
+          <div className="contenido-paguno">
+              <h2>NEGOVA</h2>
+          <p>ferreteria y accesorios galvanizado</p>
+          <button>Pedir una cotizacion</button>
+            </div>
           </div>
         </div>
         <div className="slice">
@@ -110,9 +121,11 @@ const PagunoCapa = () => {
             <img src={zelanda} alt="" />
           
           <div className='textSlide'>
-            <p >
-              paisajes de canada
-            </p>
+          <div className="contenido-paguno">
+              <h2>NEGOVA</h2>
+          <p>ferreteria y accesorios galvanizado</p>
+          <button>Pedir una cotizacion</button>
+            </div>
           </div>
         </div>
       </div>

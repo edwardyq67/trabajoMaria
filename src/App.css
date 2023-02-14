@@ -18,14 +18,15 @@
   width: 100%;
   height: 80px;
   box-shadow: 0 5ps 15ps rgba(0,0,0,.5);
-     background: rgba(255, 255, 255, .2);
+     background: rgba(127, 182, 255, 0.2);
 }
 .new{
   position: fixed;
   width: 100%;
   height: 80px;
   z-index: 40;
-  background: #189AB4;
+  background: #337e8d;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
 }
 
 .caja-menu .menu,.newmenu{
@@ -33,10 +34,10 @@
   
 }
 .caja-menu .newmenu a{
-  color: #75E6DA;
+  color: #ffffff;
 }
 .caja-menu .menu a{
-  color: #000000;
+  color: #ffffff;
 }
 .caja-menu .menu a,.caja-menu .newmenu a{
   display: inline-block;
@@ -49,12 +50,12 @@
   cursor: pointer;
 }
 .caja-menu .menu a:hover{
-  border-bottom: 2px solid #05445E;
+  border-bottom: 2px solid #ffffff;
   padding: 5px 10px;
   z-index: 40;
 }
 .caja-menu .newmenu a:hover{
-  border-bottom: 2px solid #75E6DA;;
+  border-bottom: 2px solid #ffffff;;
   padding: 5px 10px;
   z-index: 40;
 }
@@ -76,7 +77,7 @@
 }
 #capa1{
   
-  background: #189AB4;
+  background: #05445E;
   width: 100%;
   height: auto;
 }
@@ -89,20 +90,17 @@
 
 #capa4{
   
-  background: #189AB4;
+  background: #05445E;
   width: 100%;
-  height: 100vh;
+  padding-bottom: 60px;
 }
-#capa5{
-  height: 30px;
-  background: #189AB4;
-}
+
 #btn-menu{
   display: none;
 }
 .menu-cel i{
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: rgb(250, 250, 250);
   float: left;
   margin-top: 40px;
  margin-right: 20px;
@@ -126,7 +124,7 @@
 .cont-menu{
   width: 100%;
   max-width: 250px;
-  background: #1c1c1c;
+  background: #337e8d;
   height: 100vh;
   position: relative;
   transition: all 500ms ease;
@@ -145,7 +143,7 @@
 }
 .cont-menu nav a:hover{
   border-left:5px solid white;
-  background: #313030;
+  background: #3aa1b6;
 }
 .cont-menu label i{
   position: relative;
@@ -157,12 +155,13 @@
 html{
   scroll-behavior: smooth;
 }
-@media (min-width:992px){
+@media (min-width:767px){
   .menu-cel{
         visibility: hidden;
         opacity: 0;
     }
 }
+
 @media (max-width:767px){
     .menu{
         visibility: hidden;

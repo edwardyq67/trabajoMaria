@@ -3,11 +3,11 @@ import maps from '../img/mapa.jpg'
 import '../pagCss/pagMaps.css'
 const PagMaps = () => {
     return (
-        <div className="cont-maps">
+        <div data-aos="fade-right" className="cont-maps">
             <div className='pagMaps'>
             <img src={maps} alt="" />
         </div>
-        <div className="inf-maps">
+        <div  data-aos="fade-left" className="inf-maps">
             <h2>Contactame</h2>
             <div className="llamar">
                 <div className="llamar-icon">

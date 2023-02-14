@@ -15,7 +15,7 @@ import '../pagCss/pagDos.css'
 const PagDosCapa = () => {
     return (
         <div className='pagdos'>
-             <h2 data-aos="fade-right">Productos</h2>
+             <h3 data-aos="fade-right">Productos</h3>
             <div className="contenidos" data-aos="zoom-in-up">
                
                 <div className="contenido">
